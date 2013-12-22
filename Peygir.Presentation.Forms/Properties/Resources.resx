@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 
+		Microsoft ResX Schema
+
+		Version 1.3
+
+		The primary goals of this format is to allow a simple XML format 
+		that is mostly human readable. The generation and parsing of the 
+		various data types are done through the TypeConverter classes 
+		associated with the data types.
+
+		Example:
+
+		... ado.net/XML headers & schema ...
+		<resheader name="resmimetype">text/microsoft-resx</resheader>
+		<resheader name="version">1.3</resheader>
+		<resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+		<resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+		<data name="Name1">this is my long string</data>
+		<data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+		<data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+			[base64 mime encoded serialized .NET Framework object]
+		</data>
+		<data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+			[base64 mime encoded string representing a byte array form of the .NET Framework object]
+		</data>
+
+		There are any number of "resheader" rows that contain simple 
+		name/value pairs.
+
+		Each data row contains a name, and value. The row also contains a 
+		type or mimetype. Type corresponds to a .NET class that support 
+		text/value conversion through the TypeConverter architecture. 
+		Classes that don't support this are serialized and stored with the 
+		mimetype set.
+
+		The mimetype is used for serialized objects, and tells the 
+		ResXResourceReader how to depersist the object. This is currently not 
+		extensible. For a given mimetype the value must be set accordingly:
+
+		Note - application/x-microsoft.net.object.binary.base64 is the format 
+		that the ResXResourceWriter will generate, however the reader can 
+		read any of the formats listed below.
+
+		mimetype: application/x-microsoft.net.object.binary.base64
+		value   : The object must be serialized with 
+			: System.Serialization.Formatters.Binary.BinaryFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.soap.base64
+		value   : The object must be serialized with 
+			: System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.bytearray.base64
+		value   : The object must be serialized into a byte array 
+			: using a System.ComponentModel.TypeConverter
+			: and then encoded with base64 encoding.
+	-->
+	
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>1.3</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="String_Highest" xml:space="preserve">
+		<value>Highest</value>
+	</data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+	<data name="Image_Save" type="System.Resources.ResXFileRef, System.Windows.Forms">
+		<value>..\Resources\Image_Save.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+	</data>
+	<data name="Image_Close" type="System.Resources.ResXFileRef, System.Windows.Forms">
+		<value>..\Resources\Image_Close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+	</data>
+	<data name="String_DeleteMilestones" xml:space="preserve">
+		<value>Delete milestones</value>
+	</data>
+	<data name="String_AreYouSureYouWantToDeleteAttachments" xml:space="preserve">
+		<value>Are you sure you want to delete selected attachment(s)?</value>
+	</data>
+	<data name="String_PleaseSelectAMilestone" xml:space="preserve">
+		<value>Please select a milestone.</value>
+	</data>
+	<data name="String_Blocker" xml:space="preserve">
+		<value>Blocker</value>
+	</data>
+	<data name="Image_Delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+		<value>..\Resources\Image_Delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+	</data>
+	<data name="String_AreYouSureYouWantToDeleteSelectedMilestonesAndTheirTickets" xml:space="preserve">
+		<value>Are you sure you want to delete selected milestone(s) and its (their) tickets?</value>
+	</data>
+	<data name="String_Error" xml:space="preserve">
+		<value>Error</value>
+	</data>
+	<data name="String_DatabaseX" xml:space="preserve">
+		<value>Database: {0}</value>
+	</data>
+	<data name="Image_New" type="System.Resources.ResXFileRef, System.Windows.Forms">
+		<value>..\Resources\Image_New.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+	</data>
+	<data name="String_FeatureRequest" xml:space="preserve">
+		<value>Feature Request</value>
+	</data>
+	<data name="String_PleaseAddAMilestoneBeforeAddingATicket" xml:space="preserve">
+		<value>Please add a milestone before adding a ticket.</value>
+	</data>
+	<data name="String_DeleteProjects" xml:space="preserve">
+		<value>Delete projects</value>
+	</data>
+	<data name="String_TheProjectNameCannotBeBlank" xml:space="preserve">
+		<value>The project name cannot be blank.</value>
+	</data>
+	<data name="String_SummaryChangesFromXToY" xml:space="preserve">
+		<value>* "Summary" changes from "{0}" to "{1}".</value>
+	</data>
+	<data name="String_Low" xml:space="preserve">
+		<value>Low</value>
+	</data>
+	<data name="String_TypeChangesFromXToY" xml:space="preserve">
+		<value>* "Type" changes from "{0}" to "{1}".</value>
+	</data>
+	<data name="String_Trivial" xml:space="preserve">
+		<value>Trivial</value>
+	</data>
+	<data name="Image_Edit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+		<value>..\Resources\Image_Edit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+	</data>
+	<data name="String_AreYouSureYouWantToDeleteSelectedProjects" xml:space="preserve">
+		<value>Are you sure you want to delete selected project(s) and its (their) milestones and tickets?</value>
+	</data>
+	<data name="Image_Add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+		<value>..\Resources\Image_Add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+	</data>
+	<data name="String_PleaseSpecifyMilestoneState" xml:space="preserve">
+		<value>Please specify milestone state.</value>
+	</data>
+	<data name="String_Critical" xml:space="preserve">
+		<value>Critical</value>
+	</data>
+	<data name="String_PleaseSpecifyTicketSeverity" xml:space="preserve">
+		<value>Please specify ticket severity.</value>
+	</data>
+	<data name="String_High" xml:space="preserve">
+		<value>High</value>
+	</data>
+	<data name="String_Defect" xml:space="preserve">
+		<value>Defect</value>
+	</data>
+	<data name="Image_Exit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+		<value>..\Resources\Image_Exit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+	</data>
+	<data name="String_PleaseSpecifyTicketPriority" xml:space="preserve">
+		<value>Please specify ticket priority.</value>
+	</data>
+	<data name="Image_OK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+		<value>..\Resources\Image_OK.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+	</data>
+	<data name="Image_Change" type="System.Resources.ResXFileRef, System.Windows.Forms">
+		<value>..\Resources\Image_Change.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+	</data>
+	<data name="String_SeverityChangesFromXToY" xml:space="preserve">
+		<value>* "Severity" changes from "{0}" to "{1}".</value>
+	</data>
+	<data name="String_New" xml:space="preserve">
+		<value>New</value>
+	</data>
+	<data name="String_ReportedByChangesFromXToY" xml:space="preserve">
+		<value>* "Reported by" changes from "{0}" to "{1}".</value>
+	</data>
+	<data name="String_Normal" xml:space="preserve">
+		<value>Normal</value>
+	</data>
+	<data name="String_PriorityChangesFromXToY" xml:space="preserve">
+		<value>* "Priority" changes from "{0}" to "{1}".</value>
+	</data>
+	<data name="String_MilestoneChangesFromXToY" xml:space="preserve">
+		<value>* "Milestone" changes from "{0}" to "{1}".</value>
+	</data>
+	<data name="String_Major" xml:space="preserve">
+		<value>Major</value>
+	</data>
+	<data name="String_TheTicketDescriptionCannotBeBlank" xml:space="preserve">
+		<value>The ticket description cannot be blank.</value>
+	</data>
+	<data name="String_AreYouSureYouWantToDeleteSelectedTickets" xml:space="preserve">
+		<value>Are you sure you want to delete selected ticket(s)?</value>
+	</data>
+	<data name="String_DeleteAttachments" xml:space="preserve">
+		<value>Delete attachments</value>
+	</data>
+	<data name="Image_Cancel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+		<value>..\Resources\Image_Cancel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+	</data>
+	<data name="String_TheMilestoneNameCannotBeBlank" xml:space="preserve">
+		<value>The milestone name cannot be blank.</value>
+	</data>
+	<data name="String_PleaseSpecifyTicketState" xml:space="preserve">
+		<value>Please specify ticket state.</value>
+	</data>
+	<data name="Image_Peygir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+		<value>..\Resources\Image_Peygir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+	</data>
+	<data name="Image_Help" type="System.Resources.ResXFileRef, System.Windows.Forms">
+		<value>..\Resources\Image_Help.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+	</data>
+	<data name="String_Minor" xml:space="preserve">
+		<value>Minor</value>
+	</data>
+	<data name="String_Accepted" xml:space="preserve">
+		<value>Accepted</value>
+	</data>
+	<data name="String_DescriptionChanges" xml:space="preserve">
+		<value>* "Description" changes.</value>
+	</data>
+	<data name="String_Completed" xml:space="preserve">
+		<value>Completed</value>
+	</data>
+	<data name="String_StateChangesFromXToY" xml:space="preserve">
+		<value>* "State" changes from "{0}" to "{1}".</value>
+	</data>
+	<data name="Image_Attachment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+		<value>..\Resources\Image_Attachment.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+	</data>
+	<data name="String_AssignedToChangesFromXToY" xml:space="preserve">
+		<value>* "Assigned to" changes from "{0}" to "{1}".</value>
+	</data>
+	<data name="String_Version" xml:space="preserve">
+		<value>Version: {0}</value>
+	</data>
+	<data name="String_TheTicketSummaryCannotBeBlank" xml:space="preserve">
+		<value>The ticket summary cannot be blank.</value>
+	</data>
+	<data name="String_Task" xml:space="preserve">
+		<value>Task</value>
+	</data>
+	<data name="Image_Show" type="System.Resources.ResXFileRef, System.Windows.Forms">
+		<value>..\Resources\Image_Show.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+	</data>
+	<data name="String_TicketCreated" xml:space="preserve">
+		<value>* Ticket created.</value>
+	</data>
+	<data name="Image_SaveAs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+		<value>..\Resources\Image_SaveAs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+	</data>
+	<data name="String_Lowest" xml:space="preserve">
+		<value>Lowest</value>
+	</data>
+	<data name="Image_Open" type="System.Resources.ResXFileRef, System.Windows.Forms">
+		<value>..\Resources\Image_Open.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+	</data>
+	<data name="String_PleaseSpecifyTicketType" xml:space="preserve">
+		<value>Please specify ticket type.</value>
+	</data>
+	<data name="Image_History" type="System.Resources.ResXFileRef, System.Windows.Forms">
+		<value>..\Resources\Image_History.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+	</data>
+	<data name="String_Closed" xml:space="preserve">
+		<value>Closed</value>
+	</data>
+	<data name="String_DeleteTickets" xml:space="preserve">
+		<value>Delete tickets</value>
+	</data>
+	<data name="Image_Options" type="System.Resources.ResXFileRef, System.Windows.Forms">
+		<value>..\Resources\Image_Options.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+	</data>
+</root>

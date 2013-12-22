@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{61D5F13B-5934-4064-89F4-E6366F5B867E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Peygir.Presentation.UserControls</RootNamespace>
+    <AssemblyName>Peygir.Presentation.UserControls</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>Key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AttachmentDetailsUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AttachmentDetailsUserControl.designer.cs">
+      <DependentUpon>AttachmentDetailsUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AttachmentsListUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AttachmentsListUserControl.designer.cs">
+      <DependentUpon>AttachmentsListUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MilestoneDetailsUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MilestoneDetailsUserControl.designer.cs">
+      <DependentUpon>MilestoneDetailsUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MilestonesListUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MilestonesListUserControl.designer.cs">
+      <DependentUpon>MilestonesListUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectDetailsUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ProjectDetailsUserControl.designer.cs">
+      <DependentUpon>ProjectDetailsUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectsListUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ProjectsListUserControl.designer.cs">
+      <DependentUpon>ProjectsListUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="TicketDetailsUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TicketDetailsUserControl.designer.cs">
+      <DependentUpon>TicketDetailsUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TicketHistoryDetailsUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TicketHistoryDetailsUserControl.designer.cs">
+      <DependentUpon>TicketHistoryDetailsUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TicketHistoryListUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TicketHistoryListUserControl.designer.cs">
+      <DependentUpon>TicketHistoryListUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TicketsListUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TicketsListUserControl.designer.cs">
+      <DependentUpon>TicketsListUserControl.cs</DependentUpon>
+    </Compile>
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Key.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Peygir.Logic\Peygir.Logic.csproj">
+      <Project>{87c2f690-333c-479e-9eac-3f0819961ef5}</Project>
+      <Name>Peygir.Logic</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AttachmentDetailsUserControl.fa.resx">
+      <DependentUpon>AttachmentDetailsUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AttachmentDetailsUserControl.resx">
+      <DependentUpon>AttachmentDetailsUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AttachmentsListUserControl.fa.resx">
+      <DependentUpon>AttachmentsListUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AttachmentsListUserControl.resx">
+      <DependentUpon>AttachmentsListUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MilestoneDetailsUserControl.fa.resx">
+      <DependentUpon>MilestoneDetailsUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MilestoneDetailsUserControl.resx">
+      <DependentUpon>MilestoneDetailsUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MilestonesListUserControl.fa.resx">
+      <DependentUpon>MilestonesListUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MilestonesListUserControl.resx">
+      <DependentUpon>MilestonesListUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectDetailsUserControl.fa.resx">
+      <DependentUpon>ProjectDetailsUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectDetailsUserControl.resx">
+      <DependentUpon>ProjectDetailsUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectsListUserControl.fa.resx">
+      <DependentUpon>ProjectsListUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectsListUserControl.resx">
+      <DependentUpon>ProjectsListUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.fa.resx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TicketDetailsUserControl.fa.resx">
+      <DependentUpon>TicketDetailsUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TicketDetailsUserControl.resx">
+      <DependentUpon>TicketDetailsUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TicketHistoryDetailsUserControl.fa.resx">
+      <DependentUpon>TicketHistoryDetailsUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TicketHistoryDetailsUserControl.resx">
+      <DependentUpon>TicketHistoryDetailsUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TicketHistoryListUserControl.fa.resx">
+      <DependentUpon>TicketHistoryListUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TicketHistoryListUserControl.resx">
+      <DependentUpon>TicketHistoryListUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TicketsListUserControl.fa.resx">
+      <DependentUpon>TicketsListUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TicketsListUserControl.resx">
+      <DependentUpon>TicketsListUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

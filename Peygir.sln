@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Peygir", "Peygir\Peygir.csproj", "{6E944E32-F273-4AF8-A042-9D2591DA43CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Peygir.Data", "Peygir.Data\Peygir.Data.csproj", "{11F5B64A-8CD3-472E-A673-5BB1BBE71749}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Peygir.Logic", "Peygir.Logic\Peygir.Logic.csproj", "{87C2F690-333C-479E-9EAC-3F0819961EF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Peygir.Presentation.UserControls", "Peygir.Presentation.UserControls\Peygir.Presentation.UserControls.csproj", "{61D5F13B-5934-4064-89F4-E6366F5B867E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Peygir.Presentation.Forms", "Peygir.Presentation.Forms\Peygir.Presentation.Forms.csproj", "{7977AA64-3D10-4E0B-BFB0-1243662672FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataTier", "DataTier", "{6957BEB3-DDED-4840-82DE-88B9BD200A35}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LogicTier", "LogicTier", "{8ED1F57E-6725-4B02-8D56-013AD833E531}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PresentationTier", "PresentationTier", "{9D2878E9-5E11-4EF9-83DE-F9223B403EC3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{63C8DF4A-2483-43F9-9463-648403F41207}"
+	ProjectSection(SolutionItems) = preProject
+		License.txt = License.txt
+		ReadMe.txt = ReadMe.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Setup", "Setup", "{4DB146CB-D6AF-448F-8200-FEC66ED2D3A1}"
+	ProjectSection(SolutionItems) = preProject
+		Setup\Peygir.iss = Setup\Peygir.iss
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E944E32-F273-4AF8-A042-9D2591DA43CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E944E32-F273-4AF8-A042-9D2591DA43CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E944E32-F273-4AF8-A042-9D2591DA43CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E944E32-F273-4AF8-A042-9D2591DA43CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11F5B64A-8CD3-472E-A673-5BB1BBE71749}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11F5B64A-8CD3-472E-A673-5BB1BBE71749}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11F5B64A-8CD3-472E-A673-5BB1BBE71749}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11F5B64A-8CD3-472E-A673-5BB1BBE71749}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87C2F690-333C-479E-9EAC-3F0819961EF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87C2F690-333C-479E-9EAC-3F0819961EF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87C2F690-333C-479E-9EAC-3F0819961EF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87C2F690-333C-479E-9EAC-3F0819961EF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61D5F13B-5934-4064-89F4-E6366F5B867E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61D5F13B-5934-4064-89F4-E6366F5B867E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61D5F13B-5934-4064-89F4-E6366F5B867E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61D5F13B-5934-4064-89F4-E6366F5B867E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7977AA64-3D10-4E0B-BFB0-1243662672FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7977AA64-3D10-4E0B-BFB0-1243662672FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7977AA64-3D10-4E0B-BFB0-1243662672FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7977AA64-3D10-4E0B-BFB0-1243662672FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{11F5B64A-8CD3-472E-A673-5BB1BBE71749} = {6957BEB3-DDED-4840-82DE-88B9BD200A35}
+		{87C2F690-333C-479E-9EAC-3F0819961EF5} = {8ED1F57E-6725-4B02-8D56-013AD833E531}
+		{7977AA64-3D10-4E0B-BFB0-1243662672FF} = {9D2878E9-5E11-4EF9-83DE-F9223B403EC3}
+		{61D5F13B-5934-4064-89F4-E6366F5B867E} = {9D2878E9-5E11-4EF9-83DE-F9223B403EC3}
+	EndGlobalSection
+EndGlobal

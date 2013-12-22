@@ -1,0 +1,24 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Peygir.Presentation.Forms.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ProgrammerEmail" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">amir_saniyan@yahoo.com</Value>
+    </Setting>
+    <Setting Name="FormatDateTime" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="Calendar" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PersianCalendar</Value>
+    </Setting>
+    <Setting Name="DateTimePattern" Type="System.String" Scope="User">
+      <Value Profile="(Default)">yyyy/MM/dd HH:mm:ss</Value>
+    </Setting>
+    <Setting Name="HelpPath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">{0}\Help\Help.htm</Value>
+    </Setting>
+    <Setting Name="Language" Type="System.String" Scope="User">
+      <Value Profile="(Default)">en</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
