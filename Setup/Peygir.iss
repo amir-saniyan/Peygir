@@ -46,7 +46,7 @@ Source: "..\bin\Release\Help\Images\Screenshot6.png"; DestDir: "{app}\Help\Image
 
 [Icons]
 Name: "{group}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"
-Name: "{group}\Help"; Filename: "{app}\{#MyAppExeName}"
+Name: "{group}\Help"; Filename: "{app}\Help\Help.htm"
 Name: "{group}\{cm:ProgramOnTheWeb,{#MyAppName}}"; Filename: "{#MyAppURL}"
 Name: "{commondesktop}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; Tasks: desktopicon
 
