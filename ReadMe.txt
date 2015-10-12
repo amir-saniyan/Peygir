@@ -1,9 +1,8 @@
 In the name of God
 
-Peygir 1.0.0, an open source desktop issue tracking system
-Amir Saniyan <amir_saniyan@yahoo.com>
-http://peygir.codeplex.com/
-Sunday - 22 December 2013
+Peygir 1.0.1, an open source desktop issue tracking system
+Copyright © Amir Saniyan <amir_saniyan@yahoo.com> 2015
+https://github.com/amir-saniyan/Peygir
 
 About Peygir
 -----------------

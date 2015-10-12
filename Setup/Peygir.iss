@@ -1,7 +1,7 @@
 #define MyAppName "Peygir"
-#define MyAppVersion "1.0.0"
+#define MyAppVersion "1.0.1"
 #define MyAppPublisher "Amir Saniyan"
-#define MyAppURL "http://peygir.codeplex.com/"
+#define MyAppURL "https://github.com/amir-saniyan/Peygir"
 #define MyAppExeName "Peygir.exe"
 
 [Setup]

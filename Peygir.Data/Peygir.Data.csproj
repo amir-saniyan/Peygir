@@ -47,7 +47,6 @@
   <ItemGroup>
     <Compile Include="PeygirDatabaseDataSet.cs">
       <DependentUpon>PeygirDatabaseDataSet.xsd</DependentUpon>
-      <SubType>Component</SubType>
     </Compile>
     <Compile Include="PeygirDatabaseDataSet.Designer.cs">
       <AutoGen>True</AutoGen>

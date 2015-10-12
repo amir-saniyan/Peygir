@@ -723,7 +723,7 @@
     <value>2</value>
   </data>
   <data name="copyrightLabel.Text" xml:space="preserve">
-    <value>Copyright © Amir Saniyan 2013</value>
+    <value>Copyright © Amir Saniyan 2015</value>
   </data>
   <data name="copyrightLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
